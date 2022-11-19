@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#header{
+    height: 100px;
+    border: solid black 2px;
+    display: flex;
+    
+}
+
+.img > img{
+    width: 150px;
+    height: auto;
+    object-fit: contain;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.input{
+    border: solid gainsboro 2px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 25%;
+    padding: 10px 5px;
+    
+}
+
+.input > i{
+    margin-left: 15px;
+}
+.input > input{
+    border: none;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.input button{
+float: right;
+width: 20%;
+margin-top: 3px;
+padding: 2px;
+border-radius: 10px;
+background-color: #ffe344;
+margin-right: 8px;
+}
